@@ -1,0 +1,65 @@
+{
+  "content": [
+    {
+      "url": "http://testbackend.born2invest.com/uploads/video/2015/09/21/8354.mp4",
+      "autoplay": true
+    }
+  ],
+  "ads":
+  {
+    "adBreaks":
+    {
+        "preContent":
+        [{"urls": ["http://api-si.toboads.com/vast2/?zone_id=70e3a3cde&format=300x250"]}],
+        "nonLinears": [],"midContent": [],"postContent": []
+    },
+    "countdown":
+    {
+        "text": "__ad_index__/__total_ads__ ads. Remaining: __remaining__s"
+    },
+
+    "skipButton":
+    {
+        "defaultOffset":"5",
+        "backgroundColor":"000000"
+    }
+  },
+  "bumpers": [
+    {
+      "overlays": [
+        {
+          "type": "image",
+          "position": "fullscreen",
+          "start": "-1",
+          "end": "0",
+          "zIndex": 1,
+          "parameters": {
+            "url": "https://s3-eu-west-1.amazonaws.com/demo-app.assets.appscend.com/images/bipbop.jpg",
+            "clickThrough": "apsplayer://play",
+            "stretchMode": "aspectFit"
+          },
+          "closeButton": {
+            "show": false
+          }
+        },
+        {
+          "type": "image",
+          "position": "fullscreen",
+          "start": "-1",
+          "end": "0",
+          "zIndex": 2,
+          "width": "73",
+          "height": "73",
+          "parameters": {
+            "url": "https://s3-eu-west-1.amazonaws.com/demo-app.assets.appscend.com/images/play.png",
+            "clickThrough": "apsplayer://play",
+            "stretchMode": "crop"
+          },
+          "closeButton": {
+            "show": false
+          }
+        }
+      ]
+    }
+  ]
+}

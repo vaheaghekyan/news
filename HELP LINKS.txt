@@ -1,0 +1,178 @@
+DON'T LOAD YII JQUERY AND BOOTSTRAP
+http://stackoverflow.com/questions/28020463/how-to-remove-registered-jquery-file-in-yii2
+http://stackoverflow.com/questions/26734385/yii2-disable-bootstrap-js-jquery-and-css
+
+TIDY HTML - PODESI DA FORMATIRA HTML
+http://community.sitepoint.com/t/tidy-broken-html/2785/4
+Imaš na stackoverflow još
+
+Add custom theme to action
+http://www.yiiframework.com/forum/index.php/topic/56890-solved-yii-2-module-theme/
+
+get name of current controller and action
+https://www.facebook.com/groups/yiitalk/permalink/10153037463372150/
+
+Filtering and sorting model by relations - gridview
+http://www.ramirezcobos.com/2014/04/16/displaying-sorting-and-filtering-model-relations-on-a-gridview-yii2/
+http://www.yiiframework.com/doc-2.0/guide-output-data-widgets.html#working-with-model-relations
+
+DISABLE SORTING ONE COLUMN
+http://stackoverflow.com/questions/27463817/how-to-enable-and-disable-sort-in-yii2-gridview
+
+check if at least one checkbox is checked
+http://stackoverflow.com/questions/2684434/jquery-check-if-at-least-one-checkbox-is-checked
+
+multiple count, Counting two things with different conditions
+https://www.youtube.com/watch?v=JeeBCaR8jTM
+http://stackoverflow.com/questions/10576435/mysql-counting-two-things-with-different-conditions
+
+Multiple JOIN, multiple with(), multiple joinWith
+http://www.yiiframework.com/forum/index.php/topic/25560-multiple-joins-using-ar/
+
+see query, query dump
+http://stackoverflow.com/questions/27389146/log-the-actual-sql-query-using-activerecord-with-yii2
+
+User Access Controls, AccessRule
+http://code.tutsplus.com/tutorials/programming-with-yii2-user-access-controls--cms-23173
+http://thecodeninja.net/2014/12/simpler-role-based-authorization-in-yii-2-0/
+
+How to select all records from one table that do not exist in another table?
+http://stackoverflow.com/questions/2686254/how-to-select-all-records-from-one-table-that-do-not-exist-in-another-table#
+
+load before action, bootstrap component
+http://stackoverflow.com/questions/27180059/execute-my-code-before-any-action-of-any-controller
+
+Yii 2 not translating messages
+http://lukieb.blogspot.com/2015/01/yii-2-not-translating-messages.html
+
+eager loading, lazy loading
+http://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/what-is-eager-loading-and-what-is-lazy-loading-and-what-is-n/
+
+activecheckboxlist select saved values
+ovo radi - http://www.yiiframework.com/forum/index.php/topic/650-how-to-make-all-the-checkboxes-to-be-checked-by-using-activecheckboxlist/
+ovo za pomoæ -
+http://scriptbaker.com/how-to-make-yii-checkboxlist-selected/
+http://www.bsourcecode.com/2013/03/yii-chtml-checkboxlist/
+
+language codes and names
+http://stackoverflow.com/questions/3217492/list-of-language-codes-in-yaml-or-json
+
+db exception, try catch
+http://stackoverflow.com/questions/31069303/how-to-catch-db-exception-when-overriding-actioncreate-in-yii2-restful-api
+
+ Yii 2.0: Displaying, Sorting and Filtering Model Relations on a GridView
+http://www.yiiframework.com/wiki/653/displaying-sorting-and-filtering-model-relations-on-a-gridview/
+
+Download File to server from URL, download image from url
+http://stackoverflow.com/questions/3938534/download-file-to-server-from-url
+
+CREATING SEO FRIENDLY URLS IN PHP WITH URL_SLUG()
+http://iamseanmurphy.com/creating-seo-friendly-urls-in-php-with-url-slug/
+
+yii2 pager, yii2 pagination, yii2 LinkPager
+http://stackoverflow.com/questions/23336269/how-to-create-pager-in-yii2
+
+Text Blocks Over Image
+https://css-tricks.com/text-blocks-over-image/
+
+Custom Pagination in Yiiframework 2.0
+http://www.bsourcecode.com/yiiframework2/custom-pagination-in-yiiframework-2-0/
+
+Geocoder getcountry, geocoder country, geocoder chain
+https://github.com/geocoder-php/Geocoder/issues/448
+https://github.com/geocoder-php/Geocoder/issues/412
+http://www.sitepoint.com/implementing-geolocation-geocoder-php/
+
+defaultOrder on related colums
+https://github.com/yiisoft/yii2/issues/4042
+
+Custom URL rules with modules in Yii2
+http://stackoverflow.com/questions/27402923/custom-url-rules-with-modules-in-yii2
+
+Reading XML
+http://php.net/manual/en/function.xml-parse-into-struct.php
+
+Vertical align anything with just 3 lines of CSS
+http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+
+JQuery ajax progress bar
+http://www.dave-bond.com/blog/2010/01/JQuery-ajax-progress-HMTL5/
+
+select specific rows, select n group, select per category
+http://www.xaprb.com/blog/2006/12/07/how-to-select-the-firstleastmax-row-per-group-in-sql/
+http://www.xaprb.com/blog/2006/12/07/how-to-select-the-firstleastmax-row-per-group-in-sql/
+http://stackoverflow.com/questions/12113699/get-top-n-records-for-each-group-of-grouped-results
+http://www.sqlines.com/mysql/how-to/get_top_n_each_group
+
+Caching, dataprovider cache, Clear query cache by key
+http://www.yiiframework.com/forum/index.php/topic/64212-solvedclear-query-cache-by-key/
+http://stackoverflow.com/questions/13217770/yii-does-database-dependency-caching-work-across-multiple-actions
+http://stackoverflow.com/questions/30889772/yii2-how-to-cache-active-data-provider
+
+How to Check Required Fields on Form Submit
+http://ctrlq.org/code/19226-missing-required-fields-on-form-submit
+
+MySQL – select every Nth record
+http://www.webveteran.com/blog/web-coding/mysql/mysql-select-every-nth-record/
+
+htaccess block access to directory but allow access to files
+http://stackoverflow.com/questions/6545155/htaccess-block-access-to-directory-but-allow-access-to-files
+
+Allowed memory size of xxx bytes exhausted
+http://www.yiiframework.com/forum/index.php/topic/22964-php-fatal-error-allowed-memory-size-exhausted/
+https://github.com/Sybio/ImageWorkshop/issues/21
+
+Debug panel, debug toolbar
+https://github.com/yiisoft/yii2/issues/4455
+
+Yii2 scenarios
+http://www.bsourcecode.com/yiiframework2/yii2-0-scenarios/
+http://www.yiiframework.com/doc-2.0/guide-structure-models.html#scenarios
+
+RTL direction, RTL layout
+https://css-tricks.com/almanac/properties/d/direction/
+
+Caching
+https://www.digitalocean.com/community/tutorials/how-to-use-caching-with-the-yii-framework-to-improve-performance
+http://stackoverflow.com/questions/27943220/how-to-use-query-caching-in-yii2-activerecord
+http://stackoverflow.com/questions/29677450/yii2-replacing-dependancy-of-yii-1-x
+http://stackoverflow.com/questions/29854882/yii2-activerecord-cache
+
+How to put row on top in mysql query.
+http://stackoverflow.com/questions/6873423/how-to-put-row-on-top-in-mysql-query
+https://github.com/yiisoft/yii2/issues/553  -> orderby expression
+
+redirect www to non-www
+http://techwelkin.com/redirect-www-to-non-www-url-htaccess-wordpress
+
+Filtering and sorting model by relations - gridview
+http://www.ramirezcobos.com/2014/04/16/displaying-sorting-and-filtering-model-relations-on-a-gridview-yii2/
+http://www.yiiframework.com/doc-2.0/guide-output-data-widgets.html#working-with-model-relations
+
+multiple file upload
+http://techstream.org/Web-Development/PHP/Multiple-File-Upload-with-PHP-and-MySQL
+
+Google analytics User ID
+https://www.youtube.com/watch?v=tjY_ZmSRW4o
+http://stackoverflow.com/questions/23635770/user-id-not-displaying-in-google-analytics-dashboard-ios
+
+Using CRON jobs to visit url?
+http://stackoverflow.com/questions/13259530/using-cron-jobs-to-visit-url
+___________________________________________________________________________________
+FRONTEND
+
+AddThis not showing after ajax/pjax
+http://support.addthis.com/customer/portal/articles/1293805-using-addthis-asynchronously#.UvvWw0JdWTM
+_____________________________________________________________________________________
+MEMCACHE
+memcache dll
+https://pecl.php.net/package/memcache/3.0.8/windows
+how to install memcache
+http://www.leonardaustin.com/blog/technical/how-to-install-memcached-on-xampp-on-windows-7/ 
+https://commaster.net/content/installing-memcached-windows
+
+extra dll
+http://windows.php.net/downloads/pecl/releases/memcache/3.0.8/
+
+extra how to install
+http://thelinuxfaq.com/115-how-to-install-xampp-in-windows8-with-memcached

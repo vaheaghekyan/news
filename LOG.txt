@@ -1,0 +1,46 @@
+Android app:
+- if "Language" settings are changed then pull all news from "stories" that have specific "language_id"
+- if "Edition" is changed, that's' actually countries, then show news from "country_stories" that have specific "country_id"
+- Admins can add editor and editors are restricted restricted to one language only, so when they publish the news that one language will be taken and saved as "language_id" in "stories"
+
+- pending are those made by editors that has not been approved by a senior editor or admin. 
+- we removed approved, sounded like a extra step - if approved, they can either publish now or late (schedule) 
+- if it gets published, goes to Stories, if gets scheduled, goes to scheduled         
+- unpublished is like a trash can. deleted stories that for some reason we want to keep
+
+__________________________________________________________________________
+In "Published" section:
+People can can: 'delete', 'edit', 'preview'
+
+In "Deleted" section
+People can can:  'delete', 'edit', 'preview'
+
+In "Pending "
+People can can:  'delete', 'edit', 'preview', 'publish', 'unpublish', 'schedule-publish'
+
+Everybody can:
+'update', 'index', 'create', 'view'=> story
+'upload-image', 'delete-temp',
+access to list of: 'deleted', 'pending', 'published' => stories
+
+SeniorEditor, Admin and SuperAdmin can do everything what Everybody can + 'delete', 'publish', 'unpublish', 'schedule-publish'
+
+on Update:
+If user is Editor AND (User is not owner of created story OR story is published)
+He cannot update it
+
+If user is not SuperAdmin AND user is not SeniorEditor AND story is published
+He cannot update it
+___________________________________________________________________
+WHY WE USE CURRENT TIME FROM PHONE TO GET STORIES THAT ARE OLDER OR EQUAL TO CURRENT TIME ON SERVER (UTC)
+When stories are scheduled they can be scheduled in future but they are tagged as "published". So you don't want to show them right now. Since I'm taking all "published" stories ordered ascending by date_published I have to restrict somehow not to take scheduled.
+___________________________________________________________________
+cPanel stuff
+- DNS Zone for MaxCDN
+https://www.maxcdn.com/one/tutorial/creating-cname-dns-record/
+
+CronJobs
+0	0	*	*	*	wget -O - http://cms.born2invest.com/trash_temp_dir.php >/dev/null 2>&1
+0	0	*	*	*	wget -O - http://news.born2invest.com/story/sitemap >/dev/null 2>&1
+
+Transfer all freakin emails

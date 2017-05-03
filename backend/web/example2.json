@@ -1,0 +1,12 @@
+{
+  "content":
+  [
+    {
+      "url":"http://testbackend.born2invest.com/uploads/video/2015/09/21/8354.mp4",
+      'autoplay':false,
+      'allowPinch':false
+    }
+  ]
+}
+
+

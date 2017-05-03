@@ -1,0 +1,29 @@
+input
+{
+    color:gray;
+    min-width:100%;
+    border-radius:5px;
+}
+
+input:not(.submit)
+{
+    background:none !important;
+    height:30px;
+}
+
+
+input[type="submit"]
+{
+    border: 2px solid #81aa40;
+    color: white;
+    font-weight: bold;
+    background-color: #81aa40;
+    padding:10px;
+}
+
+
+.embed
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+}

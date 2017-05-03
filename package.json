@@ -1,0 +1,27 @@
+{
+  "name": "born2invest",
+  "version": "1.0.0",
+  "description": "des",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "^1.5.3"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sargispapoyan@bitbucket.org/trbsi/born2invest.git"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "sargis",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/trbsi/born2invest#readme"
+}

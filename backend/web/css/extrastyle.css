@@ -1,0 +1,159 @@
+/*---------------FIXING CORE TEMPLATE---------------------*/
+/*Fix ""active* menu item, since class "active" is added to <li> by Yii. It should be added to <a>*/
+.nav-main .active > a, .nav-main .active > a:hover
+{
+    color: #fff;
+}
+
+.nav-main .active a > i, .nav-main .active a:hover > i
+{
+    color: #fff;
+}
+.tab-content
+{
+    padding-bottom: 20px;
+}
+
+
+
+/*----PREVIEW STORY----*/
+.preview_story_image
+{
+   position: relative;
+}
+
+.preview_story_image .preview_story_info
+{
+   color:white;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background: rgba(0,0,0,0.8);
+   padding: 5px;
+}
+
+.preview_story_image span
+{
+    display:block;
+}
+
+.preview_story_image .preview_story_info_by
+{
+   font-weight:100;
+}
+
+/*on preview is story is clipkit make player smaller*/
+.preview_story_image .clipkit-playlist iframe
+{
+    max-width:560px;
+}
+
+.preview_story_image  .clipkit-playlist
+{
+    height: 470px;
+}
+
+/*--------------story/create----------------*/
+/*stories.php*/
+.btn_link_to_story
+{
+    white-space: pre-wrap;
+}
+
+
+/*-------------------HELPERS------------------*/
+ /*margins*/
+ .m-b-20
+ {
+     margin-bottom: 20px;
+ }
+ .m-b-10
+ {
+     margin-bottom: 10px;
+ }
+  .m-t-20
+ {
+     margin-top: 20px;
+ }
+
+
+/*----------------------GRID VIEW------------------------------*/
+.grid-view table th a
+{
+    word-break: break-all;  
+}
+
+/*GridView table */
+.table-header-bg thead a
+{
+    color:white;
+}
+
+
+
+/*------------MODAL POPUP CROP IMAGE----------------------*/
+/*Modal popup on image crop fix to fit the screen. Popup was high as original picture*/
+.modal #create input[type=text] {
+    width: 220px;
+}
+.modal.preview-modal .modal-dialog {
+    width: 640px;
+}
+.modal.preview-modal .modal-content {
+    background: none;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 0px;
+}
+.modal.preview-modal .modal-footer {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.modal.preview-modal .modal-body{
+    padding: 0px;
+    overflow: hidden;
+}
+.modal.preview-modal .modal-body img{
+    width: 100%
+}
+.modal.preview-modal .modal-body .description{
+    padding: 10px;
+}
+.modal.delete .modal-footer{
+    text-align: center;
+    border: none;
+}
+.modal.delete  .modal-header {
+    border: none;
+    text-align: center;
+}
+.modal.delete .modal-footer button {
+    width: 45%;
+    margin: 0px 10px;
+    border: none;
+}
+.modal.delete .modal-content {
+    background-color: #E0DFDF;
+}
+.modal.delete  .modal-body {
+    display: none;
+}
+.published-row td:first-child {
+    width: 70px;
+}
+/*
+.uploadFileCnt div.required{
+    padding: 0px;
+}  */
+/*
+.uploadFileCnt div.required input {
+    height: 35px;
+    margin: 6px 0px;
+    padding: 0px 10px;
+}   */
+.crop-img{
+    max-width: 560px;
+    max-height: 445px;
+}

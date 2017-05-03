@@ -1,0 +1,54 @@
+--
+-- Constraints for table `categories`
+--
+ALTER TABLE `categories`
+  ADD CONSTRAINT `FK_categories_language_id` FOREIGN KEY (`language_id`) REFERENCES `languages` (`id`) ON UPDATE CASCADE;
+
+
+--
+-- Constraints for table `category_stories`
+--
+ALTER TABLE `category_stories`
+  ADD CONSTRAINT `FK_category_stories_category_id` FOREIGN KEY (`category_id`) REFERENCES `categories_level_one` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_category_stories_story_id` FOREIGN KEY (`story_id`) REFERENCES `stories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `countries`
+--
+ALTER TABLE `countries`
+  ADD CONSTRAINT `FK_countries_continent_id` FOREIGN KEY (`continent_id`) REFERENCES `continents` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_countries_language_id` FOREIGN KEY (`language_id`) REFERENCES `languages` (`id`) ON UPDATE CASCADE;
+
+--
+-- Constraints for table `country_stories`
+--
+ALTER TABLE `country_stories`
+  ADD CONSTRAINT `FK_country_stories_country_id` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_country_stories_story_id` FOREIGN KEY (`story_id`) REFERENCES `stories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `stories`
+--
+ALTER TABLE `stories`
+  ADD CONSTRAINT `FK_stories_language_id` FOREIGN KEY (`language_id`) REFERENCES `languages` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_stories_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON UPDATE CASCADE;
+
+
+
+--
+-- Constraints for table `user_languages`
+--
+ALTER TABLE `user_languages`
+  ADD CONSTRAINT `FK_user_languages_language_id` FOREIGN KEY (`language_id`) REFERENCES `languages` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_user_languages_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON UPDATE CASCADE;
+  
+ALTER TABLE  `settings_social_networks` ADD CONSTRAINT  `FK_settings_social_networks_country_id` FOREIGN KEY (  `id` ) REFERENCES  `born2inv_b2iapp`.`countries` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE ;
+
+
+ALTER TABLE `country_language`
+  ADD CONSTRAINT `FK_country_language_country_id` FOREIGN KEY (`country_id`) REFERENCES `countries` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `FK_country_language_language_id` FOREIGN KEY (`language_id`) REFERENCES `languages` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  
+  _____________________________________________________________________________________________________________________________________________________
+  ALTER TABLE `categories_level_one`
+  ADD CONSTRAINT `FK_categories_level_one_parent_category` FOREIGN KEY (`parent_category`) REFERENCES `categories` (`id`) ON UPDATE CASCADE;
